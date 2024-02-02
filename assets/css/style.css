@@ -12,4 +12,14 @@ nav img {
     width: 50px;
 }
 
+.bg-scroll {
+    background-color: #00000086; 
+    transition: background-color 0.2s ease; 
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+  
 

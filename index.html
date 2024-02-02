@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="assets/img/slider-1.png">
+    <link rel="shortcut icon" type="image/png" href="assets/img/viajes.svg">
     <meta name="author" content="Ariel Hernandez Hernandez">
     <meta name="description" content="Viajes Chile">
     <meta name="keywords" content="Viajes Chile, chile, viajes">
+<!--     bootstrap@5.3.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -17,7 +18,7 @@
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3"1>
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand fw-bold " href="#">
                     <img class="img-fluid" src="assets/img/viajes.svg" alt="Viajes Chile"> Viajes Chile</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +31,13 @@
                             <a class="nav-link text-white fw-bold " href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold " href="#">Quienes Somos</a>
+                            <a class="nav-link text-white fw-bold " href="#quienes-somos">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold " href="#">Destacados</a>
+                            <a class="nav-link text-white fw-bold " href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold " href="#">Contacto</a>
+                            <a class="nav-link text-white fw-bold " href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -45,13 +46,13 @@
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Viajes Chile">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Viajes Chile">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Viajes Chile">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -64,10 +65,10 @@
             </button>
         </div>
     </header>
-    <section>
-        <div class="container mt-4">
+    <section id="quienes-somos">
+        <div class="container mt-5 d-none d-md-block">
             <div class="row">
-                <h2 class="text-center mt-2 text-light ">Quienes Somos</h2>
+                <h2 class="text-center mt-2 text-light ">¿Quienes Somos?</h2>
             </div>
             <div class="row mt-5 ">
                 <div class="col-md-4 text-center ">
@@ -91,9 +92,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="destacados">
         <div class="container ">
-            <div class="row mt-4 ">
+            <div class="row mt-5 mb-4  ">
                 <h2 class="text-center text-light ">Destacados</h2>
             </div>
             <div class="row">
@@ -103,7 +104,7 @@
             <div class="row mt-3">
                 <div class="col-sm-12 col-md-3 mb-3">
                     <div class="card bg-info text-light border-1 border-white ">
-                        <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="Asado en la patagonia">
+                        <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="Torres del paine">
                         <div class="card-body">
                             <h5 class="card-title mt-2">Torres del paine</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quam ipsum! Facilis at rem vero, harum, eum sequi mollitia atque nam, tempore modi recusandae tempora quos officiis? Id, a repudiandae.</p>
@@ -112,16 +113,16 @@
                 </div>
                 <div class="col-sm-12 col-md-3 mb-3">
                     <div class="card bg-info text-light border-1 border-white ">
-                        <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="Papas del fin del mundo">
+                        <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="Volcán Láscar">
                         <div class="card-body">
-                            <h5 class="card-title mt-2">San pedro de atacama</h5>
+                            <h5 class="card-title mt-2">Volcán Láscar</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quam ipsum! Facilis at rem vero, harum, eum sequi mollitia atque nam, tempore modi recusandae tempora quos officiis? Id, a repudiandae.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-3 mb-3">
                     <div class="card bg-info text-light border-1 border-white ">
-                        <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="Salmones de alaska">
+                        <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="Salar de atacama">
                         <div class="card-body">
                             <h5 class="card-title mt-2">Salar de atacama</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quam ipsum! Facilis at rem vero, harum, eum sequi mollitia atque nam, tempore modi recusandae tempora quos officiis? Id, a repudiandae.</p>
@@ -130,9 +131,9 @@
                 </div>
                 <div class="col-sm-12 col-md-3 mb-3">
                     <div class="card bg-info text-light border-1 border-white ">
-                        <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="Salmones de alaska">
+                        <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="Frutillar">
                         <div class="card-body">
-                            <h5 class="card-title mt-2">Frutillar</h5>
+                            <h5 class="card-title mt-2">Frutillar, Los lagos</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quam ipsum! Facilis at rem vero, harum, eum sequi mollitia atque nam, tempore modi recusandae tempora quos officiis? Id, a repudiandae.</p>
                         </div>
                     </div>
@@ -140,10 +141,10 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="contacto">
         <div class="container">
-            <div class="row">
-                <h2 class="text-center mt-4 text-light ">Contáctame</h2>
+            <div class="row mt-5 mb-4 ">
+                <h2 class="text-center mt-4 text-light ">Contacto</h2>
             </div>
             <div class="row ">
                 <div class="mb-3">
@@ -159,8 +160,9 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
                         placeholder="Escribe aqui tu mensaje"></textarea>
                 </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-star">
-                    <button class="btn btn-info me-md-2 text-light mb-4 " type="button">Enviar</button>
+                <div id="enviar" class="d-grid gap-2 d-md-flex justify-content-md-star">
+                    <button class="btn btn-info me-md-2 text-light mb-4 " type="button" tabindex="0"
+                    data-bs-toggle="tooltip" data-bs-title="Enviar correo" data-bs-placement="bottom">Enviar</button>
                 </div>
             </div>
         </div>
@@ -175,12 +177,12 @@
                     <a class="m-1 " href="https://github.com" target="_blank"><i class="fab fa-github-square fa-2x text-light"></i></a>
                     <a class="m-1 " href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x text-light "></i></a>
                     <a class="m-1 " href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x text-light "></i></a>
-                    <a class="m-1" href="https://facebook.com.com" target="_blank"><i class="fab fa-facebook-square fa-2x text-light "></i></a>
+                    <a class="m-1 " href="https://facebook.com.com" target="_blank"><i class="fab fa-facebook-square fa-2x text-light "></i></a>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
