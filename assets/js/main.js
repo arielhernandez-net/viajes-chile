@@ -13,8 +13,21 @@ $(document).ready(function () {
 });
 
 $(function() {
-    
+
     $('#enviar').click(function() {
         alert('El correo fue enviado correctamente...');
     });
 })
+
+/* Se agrega funcion para mostrar seccion quienes somos en el caso que el usaurio en dispositivo movil le haga click al boton quienes somos del navbar
+javascript vanilla version 
+
+document.getElementById('showData').addEventListener('click', function () {
+    document.getElementById('quienesSomos-data').classList.remove('d-none');
+}) */
+
+$(document).ready(function () {
+    $('#showData').click(function () {
+        $('#quienesSomos-data').removeClass('d-none');
+    });
+});
